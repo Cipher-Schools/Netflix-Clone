@@ -16,7 +16,32 @@
 
 .featureSubtitle{
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
     margin: 15px auto;
+}
+
+.featureField{
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 10px auto;
+}
+
+.inputField{
+    display: inline-block;
+    width: 450px;
+    font-size: 18px;
+    padding: 30px 10px;
+}
+
+.getStartedBtn{
+    display: inline-block;
+    width: 200px;
+    color: #fff;
+    font-size: 20px;
+    padding: 28px 20px;
+    text-decoration: none;
+    box-sizing: content-box;
+    background-color: #e43535;
 }

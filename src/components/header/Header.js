@@ -8,6 +8,9 @@ import SigninButton from "./section/SigninButton";
 import FeatureWrapper from "./section/FeatureWrapper";
 import FeatureTitle from "./section/FeatureTitle";
 import FeatureSubTitle from "./section/FeatureSubTitle";
+import FeatureFied from "./section/FeatureFied";
+import RegisterField from "./section/RegisterField";
+import GetStartedBtn from "./section/GetStartedBtn";
 
 function Header({ children }) {
   return (
@@ -23,6 +26,10 @@ function Header({ children }) {
         <FeatureSubTitle className={FStyles.featureSubtitle}>
           Watch anywhere. Cancel anytime.
         </FeatureSubTitle>
+        <FeatureFied className={FStyles.featureField}>
+          <RegisterField className={FStyles.inputField} />
+          <GetStartedBtn className={FStyles.getStartedBtn}>Get Started</GetStartedBtn>
+        </FeatureFied>
       </FeatureWrapper>
     </HeaderWrapper>
   );
