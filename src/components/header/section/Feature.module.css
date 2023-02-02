@@ -1,0 +1,22 @@
+.featureWrapperHome{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featureTitle{
+    color: #fff;
+    max-width: 720px;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.featureSubtitle{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px auto;
+}
