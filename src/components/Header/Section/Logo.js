@@ -1,4 +1,3 @@
-import logo from "../../../assets/logo.svg";
 import React from "react";
 
 function Logo({ children, ...restProps }) {
@@ -6,7 +5,7 @@ function Logo({ children, ...restProps }) {
     <div>
       <a href="/" {...restProps}>
         {children}
-        <img src={logo} width="200" alt="Netflix-Logo" className="logo" />
+        <img src="./assets/logo.svg" width="200" alt="Netflix-Logo" className="logo" />
       </a>
     </div>
   );
