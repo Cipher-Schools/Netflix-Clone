@@ -1,9 +1,9 @@
-import Signin from "./components/signin/Signin";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div>
-      <Signin />
+      <Home />
     </div>
   );
 }
