@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import AccordionContext from "./AccordionContext";
+import Open from "../../../assets/icons/add.png";
+import Close from "../../../assets/icons/close-slim.png";
 
 function AccordionHeader({ children, ...restProps }) {
   const [AccordionShow, setAccordionShow] = useContext(AccordionContext);
@@ -12,9 +14,9 @@ function AccordionHeader({ children, ...restProps }) {
     <div className="accordion-header" onClick={handleClick} {...restProps}>
       {children}
       {AccordionShow ? (
-        <img className="accordion-image" scr="../../../assets/icons/close-slim.png" alt="close" />
+        <img className="accordion-image" src={Close} alt="close" />
       ) : (
-        <img className="accordion-image" scr="../../../assets/icons/add.png" alt="open" />
+        <img className="accordion-image" scr={Open} alt="open" />
       )}
     </div>
   );
