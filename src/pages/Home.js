@@ -14,6 +14,7 @@ function Home() {
       <Saperator />
       <StoryCards />
       <Accordion />
+      <FeatureForm />
     </>
   );
 }

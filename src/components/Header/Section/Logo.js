@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../../../assets/logo.svg";
+import assets from "../../../assets";
 
 function Logo({ children, ...restProps }) {
   return (
     <div>
       <a href="/" {...restProps}>
         {children}
-        <img src={logo} width="200" alt="Netflix-Logo" className="logo" />
+        <img src={assets.Logo} width="200" alt="Netflix-Logo" className="logo" />
       </a>
     </div>
   );
