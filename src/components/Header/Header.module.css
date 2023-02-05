@@ -4,7 +4,7 @@
     height: 70vh;
     background-repeat: no-repeat;
     background-position: top left;
-    background: url("../../../public/assets/home-bg.jpg");
+    background: url("../../assets/home-bg.jpg");
 }
 
 .navbarHome{
