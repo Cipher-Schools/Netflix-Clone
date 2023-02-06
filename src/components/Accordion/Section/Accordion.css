@@ -21,6 +21,23 @@
     display: flex;
     font-size: 26px;
     cursor: pointer;
+    padding: 10px;
+    align-items: center;
     background-color: #303030;
-    border: 1px solid red;
+    justify-content: space-between;
 }
+
+.accordion-body{
+    background-color: #303030;
+    font-size: 26px;
+    padding: 0.8em 1.2em;
+    margin-bottom: 1px;
+}
+
+.accordion-image{
+    filter: brightness(0) invert(1);
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
